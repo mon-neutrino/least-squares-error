@@ -23,5 +23,6 @@ for i in range(14): #taking the ith term of the y (actual) and result list, then
     h=y_-r_
     h_list.append(h**2) #squaring the difference to remove any negative values
 
+
 s=sum(h_list) #taking the sum of all the squares of differences
 print('least squares result =', s)
